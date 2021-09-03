@@ -1,0 +1,5 @@
+export const REDUCER_CONSTANTS = {
+
+    //YOUR RESPECTIVE CONSTANTS HERE
+
+}
