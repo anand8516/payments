@@ -1,5 +1,5 @@
-import {combineReducers} from 'redux'
+import {combineReducers} from 'redux';
+import {Transaction2Reducer} from './Transaction2/reducer'
 
-const rootReducer= combineReducers({
-});
+const rootReducer= combineReducers({Transaction2Reducer});
 export default rootReducer;
