@@ -10,12 +10,11 @@ function Transaction2() {
   //fetching states
   var Transaction = useSelector((x) => x.Transaction2Reducer);
 
-
   //adding dummy transfer type and clear balance in states
   useEffect(()=>{
     var e = {
       target:{
-        value: getTransferType("customer"),
+        value: getTransferType("employee"),
         name: "transferType"
       }
     }
