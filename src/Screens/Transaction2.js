@@ -1,8 +1,12 @@
 import "../Css/Transaction2.css";
 //fetching constant value functions
-import {getCurrencyConversionRates, getMessageCodes, getTransferType} from "../Functions/Transaction2";
-import {changeData} from '../Store/Transaction2/action';
-import {useDispatch, useSelector} from "react-redux";
+import {
+  getCurrencyConversionRates,
+  getMessageCodes,
+  getTransferType,
+} from "../Functions/Transaction2";
+import { changeData } from "../Store/Transaction2/action";
+import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 
 function Transaction2() {
@@ -11,23 +15,23 @@ function Transaction2() {
   var Transaction = useSelector((x) => x.Transaction2Reducer);
 
   //adding dummy transfer type and clear balance in states
-  useEffect(()=>{
+  useEffect(() => {
     var e = {
-      target:{
+      target: {
         value: getTransferType("employee"),
-        name: "transferType"
-      }
-    }
+        name: "transferType",
+      },
+    };
     dispatch(changeData(e));
-    e.target.value= "112453";
-    e.target.name="clearBalance";
-    dispatch(changeData(e))
-  },[dispatch])
+    e.target.value = "112453";
+    e.target.name = "clearBalance";
+    dispatch(changeData(e));
+  }, [dispatch]);
 
   //updating redux state
-  const handleInputChange = (e)=>{
+  const handleInputChange = (e) => {
     dispatch(changeData(e));
-  }
+  };
 
   //displaying messageCodes and currencies in drop down
   const displayMessageCodes = getMessageCodes().map((item, index) => {
@@ -68,7 +72,11 @@ function Transaction2() {
         <div className="row">
           <div className="form-group">
             <label>Message Code</label>
-            <select className="form-control" name="messageCode" onChange={handleInputChange}>
+            <select
+              className="form-control"
+              name="messageCode"
+              onChange={handleInputChange}
+            >
               {displayMessageCodes}
             </select>
           </div>
@@ -76,7 +84,11 @@ function Transaction2() {
         <div className="row">
           <div className="form-group">
             <label>Currency</label>
-            <select className="form-control" name="currency" onChange={handleInputChange} >
+            <select
+              className="form-control"
+              name="currency"
+              onChange={handleInputChange}
+            >
               {displayCurrencies}
             </select>
           </div>
