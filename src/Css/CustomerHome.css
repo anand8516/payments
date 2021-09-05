@@ -1,0 +1,20 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-bottom: 5vh;
+}
+
+button{
+    border-radius: 8px;
+    margin: 10px;
+    background: #5cb85c;
+    color: #333333;
+    width: 300px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
