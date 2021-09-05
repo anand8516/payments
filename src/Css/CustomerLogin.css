@@ -1,0 +1,60 @@
+.CustomerLogin{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #555555;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    padding-top: 30vh;
+    height: 100vh;
+}
+
+.formCustomerLogin{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.row{
+    
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.form-control,.form-group,.row{
+    width: 100%;
+}
+
+.form-id{
+    margin-top: 20px;
+}
+
+.form-group{
+    text-align: left;
+}
+
+.buttonCustomerLogin{
+    width: 200px;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: #5cb85c;
+}
+
+.notAnEmployee{
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+    margin-left: 0px;
+    flex-direction: column;
+    height: 20px;
+    text-decoration: underline;
+}
+
+.notAnEmployee:hover{
+    color: #000000;
+    
+}

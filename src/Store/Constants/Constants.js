@@ -8,5 +8,7 @@ export const REDUCER_CONSTANTS = {
     CLEAR_BALANCE: "clearBalance",
     CURRENCY: "currency",
     AMOUNT: "amount",
-
+    CUSTOMER_ID: "customerId",
+    EMPLOYEE_ID: "employeeId",
+    PASSWORD: "password"
 }

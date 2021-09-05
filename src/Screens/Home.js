@@ -1,6 +1,5 @@
-import '../Css/Home.css';
 import {useHistory} from 'react-router-dom'
-
+import '../Css/Home.css'
 function Home() {
   const history = useHistory();
 
@@ -12,8 +11,8 @@ function Home() {
     <div className="Home">
       <h2>Welcome to <b>ABKB</b> Bank</h2>
 
-      <button onClick={()=>sendUser("customerLogin")}>Customer Login</button>
-      <button onClick={()=>sendUser("employeeLogin")}>Employee Login</button>
+      <button className="buttonHome" onClick={()=>sendUser("customerLogin")}>Customer Login</button>
+      <button className="buttonHome" onClick={()=>sendUser("employeeLogin")}>Employee Login</button>
     </div>
   );
 }
