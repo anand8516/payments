@@ -18,3 +18,8 @@
     padding-top: 7px;
     padding-bottom: 7px;
 }
+
+.buttonHome:hover{
+    cursor: pointer;
+    background-color: yellowgreen;
+}

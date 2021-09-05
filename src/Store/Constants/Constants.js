@@ -10,5 +10,14 @@ export const REDUCER_CONSTANTS = {
     AMOUNT: "amount",
     CUSTOMER_ID: "customerId",
     EMPLOYEE_ID: "employeeId",
-    PASSWORD: "password"
+    PASSWORD: "password",
+
+    //
+
+    SENDER_ACCOUNT_NAME: "senderAccountName",
+    BALANCE_AVAILABLE: "balanceAvailable",
+    INSTITUTION_NAME: "institutionName",
+    RECIEVER_ACCOUNT_NAME: "recieverAccountName",
+    RECIEVER_ACCOUNT_NUMBER: "recieverAccountNumber",
+    BIC: "BIC"
 }

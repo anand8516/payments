@@ -137,6 +137,11 @@ function Transaction2() {
             />
           </div>
         </div>
+        <div className="button-row">
+          <button type="submit" className="button-Transaction">
+            Transfer
+          </button>
+        </div>
       </form>
     </div>
   );
