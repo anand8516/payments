@@ -27,6 +27,7 @@ function CustomerLogin() {
   }
 
   return (
+    
     <div className="CustomerLogin">
       <h2>Customer Login</h2>
 
@@ -68,6 +69,7 @@ function CustomerLogin() {
         </div>
       </form>
     </div>
+   
   );
 }
 
