@@ -1,0 +1,36 @@
+.CustomerProfile{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background: #555555;
+    align-items: center;
+    height: 120vh;
+}
+.CustomerProfileIcon{
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.CustomerProfileSection{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    justify-content: left;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.CustomerProfileKey{
+    font-size: small;
+    color: #999999;
+    letter-spacing: 0.3mm;
+    font-weight: bold;
+}
+
+.CustomerProfileValue{
+    color: #ffffff;
+    letter-spacing: 0.3mm;
+    font-weight: bold;
+}

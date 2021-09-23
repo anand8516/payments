@@ -1,0 +1,30 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #555555;
+}
+
+.HomeHeading{
+    color: #ffffff;
+    font-size: xx-large;
+    letter-spacing: 0.15mm;
+}
+
+.buttonHome{
+    border-radius: 8px;
+    margin: 10px;
+    background: #5cb85c;
+    color: #333333;
+    width: 300px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.buttonHome:hover{
+    cursor: pointer;
+    background-color: yellowgreen;
+}

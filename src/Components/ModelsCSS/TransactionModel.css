@@ -1,0 +1,68 @@
+.TransactionModel{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #555555;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.TransactionModelCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin: 3px;
+    background: #ffffff;
+    border-radius: 3px;
+    width: 98%;
+}
+
+.TransactionModelCardStart{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.TransactionModelCardEnd{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.TransactionModelRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.TransactionModelSpaceBetween{
+    justify-content: space-between;
+}
+
+.TransactionModelSmaller{
+    font-size: smaller;
+}
+
+.TransactionModelSmall{
+    font-size: small;
+}
+
+.TransactionModelSmallest{
+    font-size: x-small;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.TransactionModelCenter{
+    font-weight: bold;
+    text-align: center;
+}
